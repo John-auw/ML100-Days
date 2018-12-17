@@ -1,0 +1,36 @@
+Google Analytics Customer Revenue Prediction
+Predict how much GStore customers will spend
+
+https://www.kaggle.com/c/ga-customer-revenue-prediction
+
+1. 你選的這組資料為何重要
+    
+    帕累托法則已證實在許多生意上，80%的銷售量是來自於20%的客戶群。
+    這份資料能夠幫助我們更精準地找出這些關鍵的少數。
+
+2. 資料從何而來 
+
+    Google Merchandise Store customer dataset
+
+3. 蒐集而來的資料型態為何
+
+    A table with the following fields:
+        fullVisitorId- A unique identifier for each user of the Google Merchandise Store.
+        channelGrouping - The channel via which the user came to the Store.
+        date - The date on which the user visited the Store.
+        device - The specifications for the device used to access the Store.
+        geoNetwork - This section contains information about the geography of the user.
+        socialEngagementType - Engagement type, either "Socially Engaged" or "Not Socially Engaged".
+        totals - This section contains aggregate values across the session.
+        trafficSource - This section contains information about the Traffic Source from which the session originated.
+        visitId - An identifier for this session. This is part of the value usually stored as the _utmb cookie. This is only unique to the user. For a completely unique ID, you should use a combination of fullVisitorId and visitId.
+        visitNumber - The session number for this user. If this is the first session, then this is set to 1.
+        visitStartTime - The timestamp (expressed as POSIX time).
+        hits - This row and nested fields are populated for any and all types of hits. Provides a record of all page visits.
+        customDimensions - This section contains any user-level or session-level custom dimensions that are set for a session. This is a repeated field and has an entry for each dimension that is set.
+        totals - This set of columns mostly includes high-level aggregate data.
+        
+
+4. 這組資料想解決的問題如何評估
+
+    希望能透過分柝資料做出更準確的預測，使行銷能更帶效地運用金費。
